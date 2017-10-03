@@ -4,12 +4,14 @@ Documentation               Robot Framework Example
 ...
 Metadata                    VERSION     1.0
 Library                     Selenium2Library  timeout=10   implicit_wait=1.5   run_on_failure=Capture Page Screenshot
+
+Variables   config.py
+
 Test Setup                  Start browser
 Test Teardown               Close All Browsers
 
 
 *** Variables ***
-${URL}                      https://www.google.com
 ${BROWSER}                  chrome
 ${ALIAS}                    None
 ${REMOTE_URL}               ${None}
