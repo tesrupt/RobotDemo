@@ -44,5 +44,5 @@ Test Linkedin
     [Documentation]         Test Linkedin
     Input Text    q    linkedin
     Submit Form
-    Wait Until Page Contains    Searches related to Linkedin
+    Wait Until Page Contains    Searches related to linkedin
     
