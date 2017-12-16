@@ -20,7 +20,7 @@ TEsting
     [Tags]  TEsting
     [Documentation]  TEsting
     go to  https://www.practo.com/providers/doctors/consult
-    wait until element is visible  xpath=//a[contains(text(),'Practoo Health Feed')]
+    wait until element is visible  xpath=//a[contains(text(),'Practo Health Feed')]
     click element  xpath=//a[contains(text(),'Practo Health Feed')]
     wait until element is visible  xpath=//a[contains(text(),'Practo Profile')]
     click element  xpath=//a[contains(text(),'Practo Profile')]
