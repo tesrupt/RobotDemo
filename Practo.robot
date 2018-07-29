@@ -13,7 +13,6 @@ ${REMOTE_URL}  ${None}
 Start Browser
     [Documentation]  Start browser
     Open Browser  about:blank  ${BROWSER}  remote_url=${REMOTE_URL}
-    Maximize Browser Window
 
 *** Test Cases ***
 TEsting
