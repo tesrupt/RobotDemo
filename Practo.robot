@@ -6,7 +6,7 @@ Test Setup  Start browser
 Test Teardown  Close All Browsers
 
 *** Variables ***
-${BROWSER}  chrome
+${BROWSER}  firefox
 ${REMOTE_URL}  ${None}
 
 *** Keywords ***

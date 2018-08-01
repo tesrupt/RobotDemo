@@ -9,7 +9,7 @@ Test Teardown               Close All Browsers
 
 
 *** Variables ***
-${BROWSER}                  chrome
+${BROWSER}                  firefox
 ${ALIAS}                    None
 ${REMOTE_URL}               http://localhost:4444/wd/hub
 

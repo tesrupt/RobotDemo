@@ -9,7 +9,7 @@ Test Teardown               Close All Browsers
 
 
 *** Variables ***
-${BROWSER}                  chrome
+${BROWSER}                  firefox
 ${ALIAS}                    None
 ${REMOTE_URL}               http://localhost:4444/wd/hub
 
@@ -20,7 +20,7 @@ Start Browser
     Open Browser            https://www.google.com  ${BROWSER}  remote_url=${REMOTE_URL}
 
 *** Test Cases ***
-Test Google16
+Test Google24
     [Documentation]         Test Google
     Input Text    q    webdriver
     Submit Form
